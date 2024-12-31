@@ -1,0 +1,58 @@
+
+@media(max-width: 991px){
+    #sec_not{
+        height: 600px;
+        width: 100%;
+        background: url(/assets/image/404.png);
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media(max-width: 600px){
+    #sec_not{
+        height: 350px;
+        width: 100%;
+        background: url(/assets/image/404.png);
+        background-position: center;
+        background-size: cover;
+    }
+    #sec_not .not_row .box{
+        width: 100%;
+    }
+    #sec_not .not_row .box h3{
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+    #sec_not .not_row .box p{
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    #sec_not .not_row .box a{
+        font-size: 14px;
+        padding: 5px;
+    }
+}
+
+@media(max-width: 375px){
+    #sec_not{
+        height: 300px;
+    }
+    #sec_not .not_row .box{
+        top: 55%;
+    }
+    #sec_not .not_row .box h3{
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    #sec_not .not_row .box p{
+        font-size: 13px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    #sec_not .not_row .box a{
+        font-size: 12px;
+        padding: 5px;
+    }
+}
